@@ -50,7 +50,12 @@ export default function FicheContact() {
               </div>
               <div className="font-mono">
                 <p className="text-zinc-400 text-xs uppercase">Adresse</p>
-                <p className="text-sm mt-1 text-zinc-200">12 Avenue des Maîtres, 66000 Perpignan</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=12+Avenue+des+Maitres+66000+Perpignan" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <p className="text-sm mt-1 text-zinc-200 hover:text-amber-400 transition-colors">12 Avenue des Maîtres, 66000 Perpignan</p>
+                </a>
               </div>
             </div>
 
